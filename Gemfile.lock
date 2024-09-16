@@ -163,6 +163,7 @@ GEM
     ffaker (2.23.0)
     ffi (1.17.0-arm64-darwin)
     ffi (1.17.0-x86_64-darwin)
+    ffi (1.17.0-x86_64-linux-gnu)
     flag-icons-rails (3.4.6.1)
       sass-rails
     flatpickr (4.6.13.1)
@@ -226,6 +227,7 @@ GEM
       rails
     libv8-node (18.19.0.0-arm64-darwin)
     libv8-node (18.19.0.0-x86_64-darwin)
+    libv8-node (18.19.0.0-x86_64-linux)
     logger (1.6.1)
     loofah (2.22.0)
       crass (~> 1.0.2)
@@ -273,6 +275,8 @@ GEM
     nokogiri (1.16.7-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.16.7-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     paranoia (3.0.0)
@@ -489,6 +493,7 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (2.0.4-arm64-darwin)
     sqlite3 (2.0.4-x86_64-darwin)
+    sqlite3 (2.0.4-x86_64-linux-gnu)
     state_machines (0.6.0)
     state_machines-activemodel (0.9.0)
       activemodel (>= 6.0)
@@ -535,6 +540,7 @@ GEM
 PLATFORMS
   arm64-darwin
   x86_64-darwin
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
