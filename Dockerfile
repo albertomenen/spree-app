@@ -37,7 +37,7 @@ RUN bundle install && \
 COPY . .
 
 # Precompiling assets for production without requiring secret RAILS_MASTER_KEY
-RUN SECRET_KEY_BASE_DUMMY=1 ./bin/rails assets:precompile
+RUN SECRET_KEY_BASE_DUMMY=1 CIPHER_KEY_DUMMY=1234567890abcdef ./bin/rails assets:precompile
 
 
 # Final stage for app image
