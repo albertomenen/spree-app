@@ -161,12 +161,8 @@ GEM
       tzinfo
     execjs (2.9.1)
     ffaker (2.23.0)
-    ffi (1.17.0-aarch64-linux-gnu)
-    ffi (1.17.0-arm-linux-gnu)
     ffi (1.17.0-arm64-darwin)
-    ffi (1.17.0-x86-linux-gnu)
     ffi (1.17.0-x86_64-darwin)
-    ffi (1.17.0-x86_64-linux-gnu)
     flag-icons-rails (3.4.6.1)
       sass-rails
     flatpickr (4.6.13.1)
@@ -183,7 +179,7 @@ GEM
     glyphicons (1.0.2)
     highline (3.1.1)
       reline
-    i18n (1.14.5)
+    i18n (1.14.6)
       concurrent-ruby (~> 1.0)
     i18n_data (1.1.0)
       simple_po_parser (~> 1.1)
@@ -201,7 +197,7 @@ GEM
     irb (1.14.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    jbuilder (2.12.0)
+    jbuilder (2.13.0)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
     jquery-rails (4.6.0)
@@ -228,11 +224,8 @@ GEM
     kaminari-i18n (0.5.0)
       kaminari
       rails
-    libv8-node (18.19.0.0)
-    libv8-node (18.19.0.0-aarch64-linux)
     libv8-node (18.19.0.0-arm64-darwin)
     libv8-node (18.19.0.0-x86_64-darwin)
-    libv8-node (18.19.0.0-x86_64-linux)
     logger (1.6.1)
     loofah (2.22.0)
       crass (~> 1.0.2)
@@ -277,17 +270,9 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.7.3)
-    nokogiri (1.16.7-aarch64-linux)
-      racc (~> 1.4)
-    nokogiri (1.16.7-arm-linux)
-      racc (~> 1.4)
     nokogiri (1.16.7-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.7-x86-linux)
-      racc (~> 1.4)
     nokogiri (1.16.7-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     paranoia (3.0.0)
@@ -382,7 +367,7 @@ GEM
       activejob (>= 7)
       activerecord (>= 7)
       railties (>= 7)
-    solid_queue (0.8.2)
+    solid_queue (0.9.0)
       activejob (>= 7.1)
       activerecord (>= 7.1)
       concurrent-ruby (>= 1.3.1)
@@ -502,12 +487,8 @@ GEM
       actionpack (>= 6.1)
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
-    sqlite3 (2.0.4-aarch64-linux-gnu)
-    sqlite3 (2.0.4-arm-linux-gnu)
     sqlite3 (2.0.4-arm64-darwin)
-    sqlite3 (2.0.4-x86-linux-gnu)
     sqlite3 (2.0.4-x86_64-darwin)
-    sqlite3 (2.0.4-x86_64-linux-gnu)
     state_machines (0.6.0)
     state_machines-activemodel (0.9.0)
       activemodel (>= 6.0)
@@ -527,13 +508,13 @@ GEM
     tracking_number (2.0.1)
       activesupport (>= 4.2.5)
       json (>= 1.8.3)
-    turbo-rails (2.0.6)
+    turbo-rails (2.0.7)
       actionpack (>= 6.0.0)
       activejob (>= 6.0.0)
       railties (>= 6.0.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    validates_zipcode (0.5.2)
+    validates_zipcode (0.5.3)
       activemodel (>= 4.2.0)
     warden (1.2.9)
       rack (>= 2.0.9)
@@ -552,12 +533,8 @@ GEM
     zeitwerk (2.6.18)
 
 PLATFORMS
-  aarch64-linux
-  arm-linux
   arm64-darwin
-  x86-linux
   x86_64-darwin
-  x86_64-linux
 
 DEPENDENCIES
   bootsnap
@@ -593,4 +570,4 @@ RUBY VERSION
    ruby 3.3.0p0
 
 BUNDLED WITH
-   2.5.3
+   2.5.18
